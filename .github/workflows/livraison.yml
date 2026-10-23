@@ -39,3 +39,6 @@ jobs:
         name: site-web
         path: _site/
 
+    - name: Utiliser un secret
+      run: echo "Le secret vaut ${{ secrets.MESSAGE_SECRET }}"
+
